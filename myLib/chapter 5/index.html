@@ -1,0 +1,17 @@
+<script type="text/javascript">
+var later;
+    alert(outerValue);
+    function outer(){
+         later=innerFunction;
+       
+        function innerFunction(){
+            alert(outerValue+innerValue);
+        }
+        var innerValue="samurai";
+       
+    }
+    var outerValue="ninja";
+    outer();
+    later();
+    later();
+</script>

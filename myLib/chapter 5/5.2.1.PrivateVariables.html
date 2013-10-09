@@ -1,0 +1,26 @@
+<script type="text/javascript">
+//private variables
+    function Ninja(){
+        var count=0;
+        this.getC=function(){
+            return count;
+        };
+        this.incriment=function(){
+            count++;
+        };
+    }
+    var ninja=new Ninja();
+    var ninja2=new Ninja();
+    ninja.incriment();
+    ninja2.incriment();
+    ninja2.incriment();
+    alert(ninja.getC());
+    //am kodma ver shedzlo cvlilebis shetana
+    //obieqtis parametrshi
+    ninja.count++;
+    
+    alert(ninja.getC());
+    alert(ninja2.getC());
+    alert(ninja.getC());
+    //
+</script>

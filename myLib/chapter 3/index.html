@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <link href="http://kaxa.vacau.com/p1/css/bootstrap.css" rel="stylesheet">
+    <script type="text/javascript">
+        $(document).on("click", ".btn", function() {
+            $(".btn").slideDown();
+            $(this).slideUp();
+        });
+        $(document).ready(function() {
+            $("#all").click(function() {
+                $(".btn").slideToggle("slow");
+                if (this.innerHTML = "close") {
+                    this.innerHTML = "open";
+                } else
+                    this.innerHTML = "close";
+            })
+        })
+    </script>
+</head>
+<body>
+    <table class="table">
+        <tbody>
+            <tr>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+                <td>
+                    <button class="btn">kaxa</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button class="btn-primary" id="all">close</button>
+</body>
